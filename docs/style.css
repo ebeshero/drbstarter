@@ -1,6 +1,7 @@
 body {
                 background: #D6DDF6;
                 font-family: "Lucida Console", "Courier New", monospace;
+               
             }
             
 figure {width:20%;
@@ -16,3 +17,35 @@ section{
             width:90%;
             margin:auto;
             }
+   
+
+section.gallery { 
+width:80%;
+background-color:yellow;
+line-height:1.5em;
+padding-left: 2em;
+padding-right: 2em;
+
+
+}
+/*  Section class of gallery */
+
+.gallery figaption
+
+
+.gallery {
+    
+    
+}
+
+section.gallery figcaption {
+    color:blue;
+    font-size:smaller;
+    
+}
+
+#newt
+ 
+figure#newt {
+    
+}
