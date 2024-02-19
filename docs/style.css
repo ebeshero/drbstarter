@@ -4,10 +4,7 @@ body {
                
             }
             
-figure {width:20%;
-             background: /*#EFD6F6*/ white;;
-            }
-            
+
 img {width:80%;}
             
 img#PSB {width:10%;}
@@ -17,7 +14,7 @@ section{
             width:90%;
             margin:auto;
             }
-   
+ 
 
 section.gallery { 
 width:80%;
@@ -30,13 +27,26 @@ padding-right: 2em;
 }
 /*  Section class of gallery */
 
-.gallery figaption
 
 
-.gallery {
-    
+div.galleryFlex { display:flex;
+flex-direction:row;
     
 }
+
+figure {
+             background: /*#EFD6F6*/ white;;
+            }  
+            
+
+#newt { flex:1;}
+
+#trex {flex:2;}
+
+
+
+
+
 
 section.gallery figcaption {
     color:blue;
@@ -44,8 +54,3 @@ section.gallery figcaption {
     
 }
 
-#newt
- 
-figure#newt {
-    
-}
