@@ -5,6 +5,7 @@ body {
             }
             
 
+
 img {width:80%;}
             
 img#PSB {width:10%;}
@@ -39,11 +40,11 @@ figure {
             }  
             
 
-#newt { flex:1;}
+figure#newt { flex:1;}
 
-#trex {flex:2;}
+figure#trex {flex:1;}
 
-
+figure#llama {flex: 5}
 
 
 
@@ -53,4 +54,57 @@ section.gallery figcaption {
     font-size:smaller;
     
 }
+/* This controls the section with side-by-side blocks of text */
+/* ebb: I would choose different colors here.  */
+
+div.outer {
+    width:80%;
+    background-color:purple;
+    margin:auto;
+    padding: 2em;
+    color:white;
+    
+}
+
+
+section#tinkering { 
+border-radius:33%;
+border-color:green;
+ border-style:solid;
+ border-width: 5px;
+
+
+width:70%;
+margin:auto;
+/*padding-left:2em;
+padding-right:2em;
+padding-top:1em;
+padding-bottom:1em;*/
+
+padding: 5em 2em;
+display:flex;
+
+}
+
+#tinkering ul{
+    
+  margin:auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
