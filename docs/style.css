@@ -91,6 +91,10 @@ display:flex;
   margin:auto;
     
 }
+/*  FOR THE CORPUS ANALYSIS */
+section.corpus {
+    display:flex;
+}
 
 
 
