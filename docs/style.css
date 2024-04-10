@@ -96,7 +96,11 @@ section.corpus {
     display:flex;
 }
 
-
+/*  For the TimeMap */
+iframe { 
+width:100%; 
+height:780px;
+}
 
 
 
